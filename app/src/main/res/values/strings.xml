@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MYTest</string>
+    <string-array name="penalty_array">
+        <item>Session 1</item>
+        <item>Session 2</item>
+        <item>Session 3</item>
+        <!-- Ajoutez d'autres sessions si nécessaire -->
+    </string-array>
+    <string name="label_cne">CNE: %s</string>
+    <string name="label_penalty">Pénalité: %s</string>
+    <string name="label_justification">Justification: %s</string>
+    <string name="label_session">Session: %s</string>
+    <string name="label_session_date">Date de session: %s</string>
+
+</resources>

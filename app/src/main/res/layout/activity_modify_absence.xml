@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp">
+
+    <TextView
+            android:id="@+id/sessionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Session:" />
+
+    <EditText
+            android:id="@+id/sessionEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrer session" />
+
+    <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date:" />
+
+    <EditText
+            android:id="@+id/dateEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Entrer date" />
+
+    <TextView
+            android:id="@+id/penaltyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Penalté:" />
+
+    <Spinner
+            android:id="@+id/penaltySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    <TextView
+            android:id="@+id/justificationTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Justification:" />
+
+    <RadioButton
+            android:id="@+id/radioButtonJustified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Justifiée" />
+
+    <RadioButton
+            android:id="@+id/radioButtonNotJustified"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Non Justifiée" />
+
+
+    <Button
+            android:id="@+id/modifyButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Modifée" />
+
+</LinearLayout>
